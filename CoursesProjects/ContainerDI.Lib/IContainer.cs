@@ -1,9 +1,8 @@
 ﻿using System;
-using System.Collections.Concurrent;
 
 namespace ContainerDI.Lib
 {
-    interface IContainer
+    public interface IContainer
     {
         void Register(Type type);
         void Register<T>();
